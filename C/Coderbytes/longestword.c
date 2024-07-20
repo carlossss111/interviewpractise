@@ -1,10 +1,23 @@
+/*
+Longest Word
+Have the function LongestWord(sen) take the sen parameter being passed and return the longest word 
+in the string. If there are two or more words that are the same length, return the first word from 
+the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain 
+numbers, for example "Hello world123 567"
+Examples
+Input: "fun&!! time"
+Output: time
+Input: "I love dogs"
+Output: love 
+*/
+
 #include <stdio.h> 
 #include <string.h>
 
 // you could also use a buffer like in the official solutions but thats not memory safe imo
 
 int isletter(char a){
-  if((a >= 'A' && a < 'Z') || (a >= 'a' && a <= 'z')){
+  if((a >= 'A' && a < 'Z') || (a >= 'a' && a <= 'z') || (a >= '0' && a <= '9')){
     return 1;
   }
   return 0;
@@ -50,6 +63,6 @@ void LongestWord(char * sen) {
 int main(void) { 
    
   // keep this function call here
-  LongestWord("fun&!! time"); //should print 'time'
+  LongestWord(coderbyteInternalStdinFunction(stdin)); //should print 'time'
     
 }
