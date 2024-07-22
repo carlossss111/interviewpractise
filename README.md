@@ -6,6 +6,7 @@
 | ------------- | ------------- |
 | C/GeeksForGeeks | https://www.geeksforgeeks.org/c-exercises/ |
 | C/Codebytes | https://coderbyte.com/challenges |
+| C/Leetcode | https://leetcode.com/problemset/ |
 | C/General | General C practise
 | C/Exam | Paraphrases of questions I've been asked in technical tests |
 
