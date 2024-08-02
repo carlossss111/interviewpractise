@@ -15,5 +15,6 @@
 | Dir     | Tasks     |
 | ------------- | ------------- |
 | CPP/IO | Practise with I/O |
+| CPP/Book | McDowell, G.L. (2021) Cracking the coding interview: 189 programming questions and solutions. 6th edn. Palo Alto, CA: CareerCup, LLC. |
 
 More coming until I get hired...
