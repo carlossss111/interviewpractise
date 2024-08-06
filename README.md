@@ -16,5 +16,6 @@
 | ------------- | ------------- |
 | CPP/General | General C++ practise |
 | CPP/Book | McDowell, G.L. (2021) Cracking the coding interview: 189 programming questions and solutions. 6th edn. Palo Alto, CA: CareerCup, LLC. |
+| C/Exam | Paraphrases of questions I've been asked in technical tests |
 
 More coming until I get hired...
