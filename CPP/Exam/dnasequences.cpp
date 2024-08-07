@@ -52,6 +52,10 @@ bool isSpecial(string strA, string strB){
         if(occurB[i] > occurA[i]){
             greaterB++;
         }
+
+        if(greaterA > 1 || greaterB > 1){
+            break;
+        }
     }
 
     if(greaterA <= 1 && greaterB <= 1){
